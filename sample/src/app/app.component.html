@@ -1,0 +1,81 @@
+<!-- <h1>{{title}}<br><span>GET,POST,DELETE,PUT</span></h1>
+<hr>
+<router-outlet></router-outlet> -->
+<style>
+    table, th, td {
+  border: 1px solid black;
+}
+</style>
+<p>hi</p>
+<h1 *ngFor="let item of data">
+    <div *ngIf="item.age>=30">
+        {{item.name}}
+        {{item.age}}
+
+    </div>
+
+</h1>
+<button  (click)="sendtochild()">order food </button>
+<app-testcase [chocolatecount]="chocolate"(thanks)="saythanks($event)"></app-testcase>
+<p>{{hi}}</p><br>
+<!-- <div><input type="number">
+
+<h1 *ngFor="let item of numbers">
+    <div *ngIf="item.number>=45">
+        {{item.number}}
+    </div>
+</h1>
+<button (click)="save()"> submit</button>
+</div> -->
+
+<hr>
+<input type="text" #hi formControlNamename="number">
+<button (click)="save(hi)" >Submit</button>
+<div >
+
+{{names}}
+
+
+</div>
+<body style="text-align: center;">
+<form [formGroup]="loginForm" >
+   <label>Username</label> <br>
+    <input type="text"  formControlName="username"><br>
+    <label>ID</label><br>
+    <input type="text"  formControlName="id"><br>
+    <label>Password</label><br>
+    <input type="password"   formControlName="password"><br>
+    <button (click)="login()">Login</button><br>
+     <button (click)="he()">True</button> 
+     <button (click)="no()"> False</button>
+     <!-- <div *ngFor="let item of register"> -->
+  
+         <!-- <div *ngIf="item.status==true">
+             {{item.username}}
+             {{item.password}}
+             {{item.id}}
+            {{item.status}}
+
+        </div> -->
+        <!-- </div> -->
+        
+       <table>
+           <th>name</th>
+           <th>name</th>
+           <th>Id</th>
+           <th>Status</th>
+           <tbody>
+            <tr *ngFor="let item of uname">
+                <td>{{item.username}}</td>
+                <td>{{item.password}}</td>
+                <td>{{item.id}}</td>
+                <td>{{item.status}}</td>
+              </tr>
+           </tbody>
+       </table>
+            
+       
+     
+</form>
+
+</body>

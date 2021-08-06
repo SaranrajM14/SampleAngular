@@ -1,0 +1,92 @@
+{
+  "userDetails": [
+    {
+      "id": 1,
+      "firstName": "Chairma",
+      "lastName": "Durai"
+    },
+    {
+      "id": 2,
+      "firstName": "Sathiya",
+      "lastName": "Seelan"
+    },
+    {
+      "id": 3,
+      "firstName": "Siva",
+      "lastName": "Baskar"
+    }
+  ],
+  "usersProfile": [
+    {
+      "firstName": "  samy",
+      "secondName": "rajaaaa",
+      "address": "car",
+      "city": "bike",
+      "id": 2
+    },
+    {
+      "firstName": "chairma",
+      "secondName": "raja",
+      "address": "va",
+      "city": "av",
+      "id": 3
+    },
+    {
+      "firstName": "raj",
+      "secondName": "kumar",
+      "address": "van",
+      "city": "tab",
+      "id": 4
+    }
+  ],
+  "status":[
+    {
+      "name":"d",
+      "sdate":"2021-03-01",
+      "case":20
+    },
+    {
+      "name":"g",
+      "sdate":"2021-03-13",
+      "case":30
+    },{
+      "name":"l",
+      "sdate":"2021-03-13",
+      "case":40
+    },
+    {
+      "name":"t",
+      "sdate":"2021-03-05",
+      "case":70
+    },
+    {
+      "name":"r",
+      "sdate":"2021-03-06",
+      "case":50
+    },
+    {
+      "name":"w",
+      "sdate":"2021-03-16",
+      "case":100
+    },{
+      "name":"s",
+      "sdate":"2021-03-16",
+      "case":50
+    },
+    {
+      "name":"sd",
+      "sdate":"2021-03-19",
+      "case":28
+    },
+    {
+      "name":"swd",
+      "sdate":"2021-03-20",
+      "case":28
+    },
+    {
+      "name":"swrd",
+      "sdate":"2021-03-21",
+      "case":29
+    }
+  ]
+}

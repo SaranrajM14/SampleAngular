@@ -1,0 +1,12 @@
+input[type=checkbox] + label {
+    color: rgb(56, 231, 12);
+    font-style: italic;
+  } 
+  input[type=checkbox]:checked + label {
+    color: #f00;
+    font-style: normal;
+    border: 3px solid yellow;
+  } 
+  h1{
+    text-align: center;
+}

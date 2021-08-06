@@ -1,0 +1,21 @@
+what is mavan?
+---------------
+        Maven is a powerful project management tool that is based on POM (project object model).
+It is used for projects build, dependency and documentation.
+It simplifies the build process like ANT. ...
+ maven make the day-to-day work of Java developers easier and generally help with the comprehension of any Java-based project.
+
+ ANT?)(Another Neat Tool)
+ -----
+    Maven is a build automation framework based on the concept of a project object model(pom) 
+Ant is a Java library and command line tool whose can be used to compile your code, fetching dependencies and for packaging.
+
+What is the difference between jar and war files?
+    The main difference between JAR and WAR Files is that the JAR files are the files 
+that have Java class files, associated metadata and resources aggregated into a single file to execute a Java application 
+while the WAR files are the files that contain Servlet, JSP, HTML,
+
+War?
+In software engineering, a WAR file is a file used to distribute a collection of JAR-files, 
+JavaServer Pages, Java Servlets, Java classes, XML files, tag libraries, static web pages and 
+other resources that together constitute a web application

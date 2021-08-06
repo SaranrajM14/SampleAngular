@@ -1,0 +1,56 @@
+
+<!-- <div class="container">
+        <div *ngFor="let item of data; let i=index;">
+                <input type="checkbox"/><label for="ossm">{{item.name}}</label> 
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="next()">Next</button>
+
+    <hr>
+    <div class="full">
+            <img src="./assets/image/one.png" class="image1"><p>Chairma_17</p><img src="./assets/image/one.png" class="image2"> 
+    </div>
+ -->
+ <h2>Reactive Form => click hear</h2>
+ 
+ <button type="button" class="btn btn-primary" (click)="next()">Next</button>
+ <br>
+
+<!--  <button type="button" class="btn btn-primary" (click)="show()">Show Rest Data</button> -->
+ <br>
+ <hr>
+
+
+<!--  <h2>Rest Api Data</h2>
+<div *ngFor="let item of restData">
+        <ul>
+                <li>{{item.firstName}}</li>
+                <li>{{item.lastName}}</li>
+                <li>{{item.address}}</li>
+                <li>{{item.city}}</li>
+
+        </ul>
+
+</div>
+
+ -->
+ <hr>
+ <h1>Springboot</h1>
+ <!-- <div class="container design">
+        <button type="button" class="btn btn-success mt-2 mr-2" (click)="test()">Get data ID</button>
+        <button type="button" class="btn btn-success mt-2 mr-2" (click)="test1()">Get Data</button>
+        <button type="button" class="btn btn-danger mt-2 mr-2" (click)="test2()">post Data</button>
+ </div>
+
+ <button type="button" class="btn btn-danger mt-2 mr-2" (click)="thirt()">test</button>
+
+ <div *ngFor="let item of listArray">
+         <app-second [user]="item"></app-second>
+        
+ </div>
+ -->
+ <div *ngFor="let data of dataValues| sort:'case'">
+       <li >
+        {{data.case}}
+       </li>
+ </div>
